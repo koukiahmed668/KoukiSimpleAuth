@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <PackageId>KoukiSimpleAuth</PackageId>
+	  <Version>1.0.2</Version>
+	  <Authors>Ahmed Kouki</Authors>
+	  <Description>A simple authentication library with JWT support.</Description>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PackageProjectUrl>https://github.com/koukiahmed668/SimpleAuth</PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/koukiahmed668/SimpleAuth</RepositoryUrl>
+	  <PackageTags>authentication jwt library</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.2.0" />
+  </ItemGroup>
+
+</Project>
